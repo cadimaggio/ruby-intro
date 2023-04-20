@@ -9,6 +9,15 @@
 ranks = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"]
 suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
 
+deck = [
+for suit in suits  
+for rank in ranks
+end
+end
+]
+
+puts deck
+
 # Sample output:
 # 2 of Clubs
 # 2 of Diamonds

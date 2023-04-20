@@ -10,8 +10,18 @@
 # then write them out to the screen. Show the total
 # as well.
 
+die1 = rand(1..6)
+die2 = rand(1..6)
+
+puts "First die : #{die1}"
+puts "Second die : #{die2}"
+#remember the silly # sign and curly brackets!!
+
+total = die1 + die2
+puts "Total: #{total}"
+
+
 # HINTS
 # Get a random number between 1 and 6 by doing:
 # rand(1..6)
 # Log output to the screen with puts:
-# puts "Hello, world"
